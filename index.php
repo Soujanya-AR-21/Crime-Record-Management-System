@@ -104,3 +104,20 @@
             background: #fff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #374553;
+            color: white;
+            text-align: center;
+        }
+
+        td {
+            background-color: #f9fbfd;
+        }
