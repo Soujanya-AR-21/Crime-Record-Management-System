@@ -147,3 +147,15 @@
     </head>
     </style>
 
+     <nav>	
+        <img src="images/images.png" alt="Logo" style="width: 90px; height: 90px; flex-shrink: 0; border: 1px solid white; border-radius:50%; "> 
+        <div>
+            <div class="nav-bar">
+                <a href="index.php">Home</a>
+                <a href="user\signin.php">User</a>
+                <a href="police\signin.php">Police</a>
+                <a href="admin\signin.php">Admin</a>
+            </div>
+        </div>
+    </nav>
+
