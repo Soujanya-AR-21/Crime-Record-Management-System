@@ -121,3 +121,29 @@
         td {
             background-color: #f9fbfd;
         }
+
+        .Station {
+            background: #e9edf3;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .range {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* Footer */
+        .footer{
+            background-color:#2c3e50;
+            color:white;
+            text-align:center;
+            align-items: center;
+            padding:20px;
+            width: 100%;
+            margin-top:40px;
+        }
+    </head>
+    </style>
+
