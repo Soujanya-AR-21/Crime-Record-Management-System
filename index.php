@@ -159,3 +159,9 @@
         </div>
     </nav>
 
+    <!-- Header -->
+    <div class="header">
+        <h1>Crime Record Management System – Dakshina Kannada District</h1>
+        <p>Manage Crime Records Easily and Securely</p>
+    </div>
+
