@@ -176,4 +176,15 @@
         departments maintain FIR records, criminal details, and investigation reports 
         in an organized way.
         </p>
+        <!-- E-Court section removed -->
+        
+        <p style="font-size: large; margin-top: 50px;">The following are the Police Ranges and the Subdivision comprising each Range:</p>
+        <table>
+            
+            <tr>
+                <th>Sl.No</th>
+                <th>Range</th>
+                <th>Police Station Name</th>
+            </tr>
+
 
