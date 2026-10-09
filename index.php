@@ -165,3 +165,15 @@
         <p>Manage Crime Records Easily and Securely</p>
     </div>
 
+    <div class="body-container">
+    <!-- Information -->
+    <div class="content">
+        <h2 style="margin-top: 5px;">About the Website</h2>
+
+        <p>
+        Crime Record Management System is a web based application developed to store
+        and manage crime related information digitally. <br> The system helps police
+        departments maintain FIR records, criminal details, and investigation reports 
+        in an organized way.
+        </p>
+
