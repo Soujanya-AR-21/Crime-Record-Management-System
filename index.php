@@ -209,4 +209,40 @@
                 </td>
             </tr>
 
+            <tr>
+                <td>2</td>
+                <td class="range">Central Subdivision</td>
+                <td>
+                    <div class="Station">Kankanady Town Police Station</div>
+                    <div class="Station">Kadri Police Station</div>
+                    <div class="Station">Barke Police Station</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td class="range">North Subdivision</td>
+                <td>
+                    <div class="Station">Mangalore North Police Station</div>
+                    <div class="Station">Urwa Police Station</div>
+                    <div class="Station">Kavoor Police Station</div>
+                    <div class="Station">Surathkal Police Station</div>
+                    <div class="Station">Panambur Police Station</div>
+                    <div class="Station">Puttur</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td class="range">Rural / District Stations</td>
+                <td>
+                    <div class="Station">Bantwal Rural Police Station</div>
+                    <div class="Station">Dharmasthala Police Station</div>
+                    <div class="Station">Mulki Police Station</div>
+                    <div class="Station">Belthangady Police Station</div>
+                    <div class="Station">Kadaba Police Station</div>
+                </td>
+            </tr>
+
+
 
