@@ -147,6 +147,9 @@
     </head>
     </style>
 
+    <body>
+
+<!-- Navigation Menu -->
      <nav>	
         <img src="images/images.png" alt="Logo" style="width: 90px; height: 90px; flex-shrink: 0; border: 1px solid white; border-radius:50%; "> 
         <div>
@@ -176,6 +179,12 @@
         departments maintain FIR records, criminal details, and investigation reports 
         in an organized way.
         </p>
+
+        <p>
+        Users can register complaints online and police officers can manage and update 
+        crime records easily through the system.
+        </p>
+        
         <!-- E-Court section removed -->
         
         <p style="font-size: large; margin-top: 50px;">The following are the Police Ranges and the Subdivision comprising each Range:</p>
