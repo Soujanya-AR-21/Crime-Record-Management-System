@@ -196,4 +196,17 @@
                 <th>Police Station Name</th>
             </tr>
 
+            <tr>
+                <td>1</td>
+                <td class="range">South Subdivision</td>
+                <td>
+                    <div class="Station">Mangalore South Police Station</div>
+                    <div class="Station">Mangalore Rural Police Station</div>
+                    <div class="Station">Ullal Police Station</div>
+                    <div class="Station">Moodbidri Police Station</div>
+                    <div class="Station">Venoor Police Stations</div>
+                    <div class="Station">Karkala Police Station</div>
+                </td>
+            </tr>
+
 
