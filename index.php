@@ -244,5 +244,34 @@
                 </td>
             </tr>
 
+             <tr>
+                <td>5</td>
+                <td class="range">Special Crime Units</td>
+                <td>
+                    <div class="Station">CEN Crime Police Station</div>
+                    <div class="Station">City Crime Branch (CCB) Mangaluru</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td class="range">Traffic Subdivision</td>
+                <td>
+                    <div class="Station">Mangaluru Traffic Police Stations</div>
+                </td>
+            </tr>
+        </table>
+        
+<!-- Footer -->
+<div class="footer">
+    <h3>Contact Us</h3>
+    <p>Email: crmssystem5@gmail.com</p>
+    <p>Phone: +91 911067....</p>
+    <p>Address: Karnataka Police Department</p>
+</div>
+
+</body>
+</html>
+
 
 
