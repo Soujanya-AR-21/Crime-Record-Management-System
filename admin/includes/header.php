@@ -8,4 +8,16 @@
                <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
           </div>
      </div>
+
+    <!-- start: search & user box -->
+    <div class="header-right">
+        <div id="userbox" class="userbox">
+            <a href="#" data-toggle="dropdown">
+                <figure class="profile-picture">
+                    <img src="../assets/images/admin.png" alt="Admin" class="img-circle" data-lock-picture="../assets/images/admin.png" />
+                </figure>
+                <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
+                    <?php
+
+   
                   
