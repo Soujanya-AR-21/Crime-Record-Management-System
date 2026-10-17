@@ -35,6 +35,9 @@
                                 <span class="role"><?php  echo $row->Email;?></span>
                                 <?php $cnt=$cnt+1;}} ?>
                 </div>
+                <i class="fa custom-caret"></i>
+                        </a>
+            
 
    
                   
