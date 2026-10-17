@@ -18,6 +18,18 @@
                 </figure>
                 <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
                     <?php
+                        $aid=$_SESSION['crmsaid'];
+                        $sql="SELECT AdminName,Email from  tbladmin where ID=:aid";
+                        $query = $dbh -> prepare($sql);
+                        $query->bindParam(':aid',$aid,PDO::PARAM_STR);
+                        $query->execute();
+                        $results=$query->fetchAll(PDO::FETCH_OBJ);
+                        $cnt=1;
+                        if($query->rowCount() > 0)
+                        {
+                        foreach($results as $row)
+                        {              
+                    ?>
 
    
                   
