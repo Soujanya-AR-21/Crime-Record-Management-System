@@ -37,6 +37,25 @@
                 </div>
                 <i class="fa custom-caret"></i>
                         </a>
+
+            <div class="dropdown-menu">
+                <ul class="list-unstyled">
+                    <li class="divider"></li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="profile.php"><i class="fa fa-user"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="change-password.php"><i class="fa fa-user"></i>Change Password</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="logout.php"><i class="fa fa-power-off"></i> Logout</a>
+                        </li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end: search & user box -->
+</header>
             
 
    
