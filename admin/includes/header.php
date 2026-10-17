@@ -31,5 +31,10 @@
                         {              
                     ?>
 
+                    <span class="name"><?php  echo $row->AdminName;?></span>
+                                <span class="role"><?php  echo $row->Email;?></span>
+                                <?php $cnt=$cnt+1;}} ?>
+                </div>
+
    
                   
