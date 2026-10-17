@@ -1,5 +1,11 @@
 <header class="header">
-                <div class="logo-container">
-              <a href="dashboard.php" class="logo" style="color:#000; font-size:22px; text-decoration:none;">
-                      Crime Record Management System | Admin Panel
-                    </a>
+    <div class="logo-container">
+         <a href="dashboard.php" class="logo" style="color:#000; font-size:22px; text-decoration:none;">
+              Crime Record Management System | Admin Panel
+          </a>
+      
+          <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+               <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+          </div>
+     </div>
+                  
