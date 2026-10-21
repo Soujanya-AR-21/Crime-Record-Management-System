@@ -43,3 +43,18 @@ exit("Error: " . $e->getMessage());
 				<!-- start: sidebar -->
 				<?php include_once('includes/sidebar.php');?>
 				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<h2>Add Crime Category</h2>
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="dashboard.php">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>Add</span></li>
+								<li><span>Crime Category</span></li>
+							</ol>
