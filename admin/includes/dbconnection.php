@@ -58,3 +58,8 @@ exit("Error: " . $e->getMessage());
 								<li><span>Add</span></li>
 								<li><span>Crime Category</span></li>
 							</ol>
+
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+						</div>
+					</header>
+
