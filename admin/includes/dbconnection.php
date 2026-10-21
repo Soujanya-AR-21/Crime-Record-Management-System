@@ -31,3 +31,15 @@ exit("Error: " . $e->getMessage());
 		<link rel="stylesheet" href="../assets/stylesheets/theme-custom.css">
 		<script src="../assets/vendor/modernizr/modernizr.js"></script>
 	</head>
+
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+		<?php include_once('includes/header.php');?>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<?php include_once('includes/sidebar.php');?>
+				<!-- end: sidebar -->
