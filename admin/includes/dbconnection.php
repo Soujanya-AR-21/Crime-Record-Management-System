@@ -63,3 +63,12 @@ exit("Error: " . $e->getMessage());
 						</div>
 					</header>
 
+					<!-- start: page -->
+					
+					<div class="row">
+						<div class="col-md-12">
+							<form class="form-horizontal" method="post">
+								<section class="panel">
+									<header class="panel-heading">
+										<h2 class="panel-title">Add Crime Category</h2>
+
