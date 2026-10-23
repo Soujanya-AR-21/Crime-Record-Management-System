@@ -76,4 +76,10 @@ exit("Error: " . $e->getMessage());
 										<div class="validation-message">
 											<ul></ul>
 										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Crime Category Name <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="catname" value="" required='true'>
+											</div>
+										</div>
 
