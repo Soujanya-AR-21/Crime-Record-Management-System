@@ -109,3 +109,39 @@ echo "<script>window.location.href ='add-police-station.php'</script>";
 											</div>
 										</div>
 
+									</div>
+									<footer class="panel-footer">
+										<div class="row">
+											<div class="col-sm-9 col-sm-offset-3">
+												<button class="btn btn-sm btn-primary login-submit-cs" type="submit"name="submit">Add</button>
+											
+											</div>
+										</div>
+									</footer>
+								</section>
+							</form>
+						</div>
+					
+					</div>
+					<!-- end: page -->
+				</section>
+			</div>
+
+		</section>
+
+		<!-- Vendor -->
+		<script src="../assets/vendor/jquery/jquery.js"></script>
+		<script src="../assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="../assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="../assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="../assets/vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="../assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		<script src="../assets/vendor/jquery-validation/jquery.validate.js"></script>
+		<script src="../assets/javascripts/theme.js"></script>
+		<script src="../assets/javascripts/theme.custom.js"></script>
+		<script src="../assets/javascripts/theme.init.js"></script>
+		<script src="../assets/javascripts/forms/examples.validation.js"></script>
+	</body>
+</html><?php }  ?>
+
