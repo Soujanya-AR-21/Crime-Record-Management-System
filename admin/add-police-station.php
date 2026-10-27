@@ -89,3 +89,23 @@ echo "<script>window.location.href ='add-police-station.php'</script>";
 											<a href="#" class="fa fa-times"></a>
 										</div>
 
+										<h2 class="panel-title">Add Police Station Detail</h2>
+									
+									</header>
+									<div class="panel-body">
+										<div class="validation-message">
+											<ul></ul>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Police Station Name <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="policestationname" value="" required='true'>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Police Station Code <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="policestationcode" value="" required="true">
+											</div>
+										</div>
+
