@@ -45,3 +45,47 @@ echo "<script>window.location.href ='add-police-station.php'</script>";
 
 	</head>
 
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+		<?php include_once('includes/header.php');?>
+			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<?php include_once('includes/sidebar.php');?>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<h2>Add Police Station</h2>
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="dashboard.php">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>Add</span></li>
+								<li><span>Police</span></li>
+							</ol>
+					
+							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+						</div>
+					</header>
+
+					<!-- start: page -->
+					
+					<div class="row">
+						<div class="col-md-12">
+							<form class="form-horizontal" method="post">
+								 
+								<section class="panel">
+									<header class="panel-heading">
+										<div class="panel-actions">
+											<a href="#" class="fa fa-caret-down"></a>
+											<a href="#" class="fa fa-times"></a>
+										</div>
+
