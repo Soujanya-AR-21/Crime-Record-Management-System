@@ -135,3 +135,71 @@ $sql2 = "SELECT * from  tblpolicestation";
 $query2 = $dbh -> prepare($sql2);
 $query2->execute();
 $result2=$query2->fetchAll(PDO::FETCH_OBJ);
+
+foreach($result2 as $row)
+{          
+    ?>  
+<option value="<?php echo htmlentities($row->id.','.$row->PoliceStationName);?>"><?php echo htmlentities($row->PoliceStationName);?>-(<?php echo htmlentities($row->PoliceStationCode);?>)</option>
+ <?php } ?>
+			
+
+ 												</select>
+											</div>
+										</div>
+
+
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Police ID <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="pid" value="" required='true'>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Name <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="name" value="" required="true">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Email</label>
+											<div class="col-sm-9">
+												<input type="email" class="form-control" name="email" value="" required='true'>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Mobile Number <span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="text" class="form-control" name="mobnum" value="" required='true' maxlength='10'>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Address<span class="required">*</span></label>
+											<div class="col-sm-9">
+												<textarea type="text" class="form-control" id="email2" name="address" value="" required='true'></textarea>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label">Password<span class="required">*</span></label>
+											<div class="col-sm-9">
+												<input type="password" class="form-control" name="password" value="" required='true'>
+											</div>
+										</div>
+									</div>
+									<footer class="panel-footer">
+										<div class="row">
+											<div class="col-sm-9 col-sm-offset-3">
+												<button class="btn btn-sm btn-primary login-submit-cs" type="submit"name="submit">Add</button>
+											
+											</div>
+										</div>
+									</footer>
+								</section>
+							</form>
+						</div>
+					
+					</div>
+					<!-- end: page -->
+				</section>
+			</div>
+
+		</section>
