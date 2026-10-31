@@ -203,3 +203,19 @@ foreach($result2 as $row)
 			</div>
 
 		</section>
+
+		<!-- Vendor -->
+		<script src="../assets/vendor/jquery/jquery.js"></script>
+		<script src="../assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="../assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="../assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="../assets/vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="../assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		<script src="../assets/vendor/jquery-validation/jquery.validate.js"></script>
+		<script src="../assets/javascripts/theme.js"></script>
+		<script src="../assets/javascripts/theme.custom.js"></script>
+		<script src="../assets/javascripts/theme.init.js"></script>
+		<script src="../assets/javascripts/forms/examples.validation.js"></script>
+	</body>
+</html><?php }  ?>
